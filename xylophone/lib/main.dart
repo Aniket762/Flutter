@@ -18,33 +18,101 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         body: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Expanded(
               child: FlatButton(
+                color: Colors.deepPurple,
                 child: Container(
-                  color: Colors.deepPurple,
-                  child: Text('One',style: TextStyle(fontSize: 30,color: Colors.white),),
+
+                  child: Text('Do',style: TextStyle(fontSize: 30,color: Colors.white),),
                 ),
                 onPressed: (){
                     final player = AudioCache();
-                    player.play('Bekhayali - Arijit Singh Version.mp3');
+                    player.play('note1.wav');
                 },
               ),
             ),
             Expanded(
               child: FlatButton(
+                color: Colors.indigo,
                 child: Container(
-                  color: Colors.orange,
-                  child: Text('Two',style: TextStyle(fontSize: 30,color: Colors.white),),
+
+                  child: Text('Re',style: TextStyle(fontSize: 30,color: Colors.white),),
                 ),
                 onPressed: (){
                   final player = AudioCache();
-                  player.play('Kaise Hua - Kabir Singh.mp3');
+                  player.play('note2.wav');
+                },
+              ),
+            ),
+            Expanded(
+              child: FlatButton(
+                color: Colors.blue,
+                child: Container(
+
+                  child: Text('Mi',style: TextStyle(fontSize: 30,color: Colors.white),),
+                ),
+                onPressed: (){
+                  final player = AudioCache();
+                  player.play('note3.wav');
+                },
+              ),
+            ),
+            Expanded(
+              child: FlatButton(
+                color: Colors.green,
+                child: Container(
+
+                  child: Text('Fa',style: TextStyle(fontSize: 30,color: Colors.white),),
+                ),
+                onPressed: (){
+                  final player = AudioCache();
+                  player.play('note4.wav');
+                },
+              ),
+            ),
+            Expanded(
+              child: FlatButton(
+                color: Colors.yellow,
+                child: Container(
+
+                  child: Text('So',style: TextStyle(fontSize: 30,color: Colors.white),),
+                ),
+                onPressed: (){
+                  final player = AudioCache();
+                  player.play('note5.wav');
+                },
+              ),
+            ),
+            Expanded(
+              child: FlatButton(
+                color: Colors.redAccent,
+                child: Container(
+
+                  child: Text('La',style: TextStyle(fontSize: 30,color: Colors.white),),
+                ),
+                onPressed: (){
+                  final player = AudioCache();
+                  player.play('note6.wav');
+                },
+              ),
+            ),
+            Expanded(
+              child: FlatButton(
+                color: Colors.teal,
+                child: Container(
+
+                  child: Text('Ti',style: TextStyle(fontSize: 30,color: Colors.white),),
+                ),
+                onPressed: (){
+                  final player = AudioCache();
+                  player.play('notes7.wav');
                 },
               ),
             )
 
-          ], 
+          ],
         ),
       ),
     );
