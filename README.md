@@ -7,11 +7,11 @@
 <img src = "https://github.com/Aniket762/Flutter-/blob/main/camera/camerHome.jpeg" height="400" width="200">
 
 ## Xylophone App
-#### While developing this app you will learn how to use onPressed feature , import audio files, import external package here I used audioplayers but you will have many options to choose from dart lib.
+#### A simple music app when touched on the keys plays the notes.While developing this app you will learn how to use onPressed feature , import audio files, import external package here I used audioplayers but you will have many options to choose from dart lib.
 <img src="https://github.com/Aniket762/Flutter-/blob/main/xylophone/xylophoneHome.jpeg" height="400" width="200"> 
 
 ## Login Page UI
-#### A proper idea on how to make use of stacks will be clear, placing different images over an image, use of box decoration ,positioned will also be clear.
+#### Just UI,A proper idea on how to make use of stacks will be clear, placing different images over an image, use of box decoration ,positioned will also be clear.
 <img src="https://github.com/Aniket762/Flutter-/blob/main/loginpageui/loginUI.jpeg" height="400" width="200">
 
 
@@ -20,6 +20,6 @@
 <img src="https://github.com/Aniket762/Flutter-/blob/main/micard/micardHome.jpeg" height="400" width="200">
 
 # I am Rich App
-#### 1st app you which every flutter developer starts with. In this you can learn how to insert photo in the app and start learning basics properly and get an idea of Scaffold.
+#### This app needs no intro the most popular app. 1st app you which every flutter developer starts with. In this you can learn how to insert photo in the app and start learning basics properly and get an idea of Scaffold.
 #### Fun Fact: This app was sold for $999 😁
 <img src="iamrich/iamrichhome.jpeg" height="400" width="200">
